@@ -1,0 +1,83 @@
+\chapter{Praktyczne zastosowanie}
+\label{chap:praktyczne-zastosowanie}
+
+Treść dla niniejszego rozdziału to zwykle praktyczne zastosowanie omawianego zagadnienia. Poprzez analizę rozdziału \nameref{chap:teoretyczne_podwaliny}, a~także jego wykorzystanie w~praktyce, dyplomanta stara się nakreślić całość rozdziału praktycznego.
+
+\section{Tworzenie obiektów LaTeXa}
+\label{sec:tworzenie-obiektow-latexa}
+Oprócz tego że mozemy ładnie dzielić treści, umieszczać zdjęcia, tabele, kody źródłowe, odwoływac się do przypisów bibliograficzych, możemy także\footnote{Tworzyć przypisy dolne w miejscu w którym rzeczywiście powinnu się znaleść, a LaTeX przygotuje i sformatuje je za nas!}:
+
+\note{\textbf{Pamietaj!} LaTeX jest bardzo skrupulatny, tak więc istnieje dla niego widoczna różnica pomiędzy \textbf{przypisem dolnym} (który zaobserowowałeś powyżej, \texttt{\textbackslash{}footnote\{\}}), a \textbf{odwołaniem do bibliografi umieszczonym w przypisie dolnym} (\texttt{\textbackslash{}footcite\{\}}). \\
+Dla więkości osób piszących na codzień teksty w Wordzie nie jest to żadna różnica, jednak poniekąd jako zecer musisz, również zadbać o odpowiedni i poprawny skład swojej pracy. Twój promotor może tego nie zauważyć (jeśli nie zna LaTeXa), jednak z pewnością doceni bardzo estetyczny wygląd pracy, a takżę Twoją skrupulatność przy pisaniu --- jestem o~tym przekonany w 100\% --- zaprocentuje Ci w przyszłości, gdyż każdy kolejny dłuższy dokument jaki bedziesz pisać w LaTeXu wykonasz znacznie, znacznie szybciej.}
+
+\paragraph{Pisać wytłuszczone paragrafy} Ich treść może wskazywać na kluczowe aspekty na które chcesz zwrócić większą uwagę w danym rozdziale.
+
+Mogą również rozciągać się na wiele linijek, więc nie musisz martwić się o to, że będziesz mieć mało miejsca. Wprost przeciwnie, bedziesz musiał martwić się o to, aby praca nie przekroczyła określonego limitu (tak się właśnie stało w moim przypadku) ;)
+
+Bądź określać terminy, definicje czy wzory matematyczne i nie muszą mieć one żadnego związku z matematyką tu chodzi bardziej o to, że warto z tych podstawowych elementów korzystać jak najcześciej.\\
+
+W związku z pewną strukturą w pracy śmiało można także tworzyć\footnote{Wiecej informacji znajdziesz pod tym adresem internerowym: \url{http://www.latex-kurs.x25.pl/paper/Twierdzenia_definicje}}: 
+
+\begin{itemize}
+\item twierzenia(\texttt{thm}), 
+\item definicje(\texttt{defn}), 
+\item założenia(\texttt{prop}), 
+\item wnioski(\texttt{cor}), 
+\item przypuszczenia(\texttt{conj}), 
+\item przykłady(\texttt{exmp}), 
+\item lematy(\texttt{lem}),
+\item spostrzeżenia(\texttt{rem}),
+\item lub notki(\texttt{note})
+\end{itemize}
+
+\begin{defn}[Mechanika kwantowa]
+Teoria praw ruchu obiektów poszerzająca zakres mechaniki na sytuacje, dla których przewidywania mechaniki klasycznej nie sprawdzały się. Opisuje przede wszystkim świat mikroskopowy – obiekty o bardzo małych masach i rozmiarach, np. atom, cząstki elementarne itp., ale także takie zjawiska makroskopowe jak nadprzewodnictwo i nadciekłość. Jej granicą dla średnich rozmiarów, energii czy pędów zwykle jest mechanika klasyczna \parencite{url:wiki-mechanika-kwantowa}.
+\end{defn}
+
+\noindent Jeden z najprostrzych przykładów na zobrazowanie prostoty działania trybu matematycznego, do wprowadzania dowolnych wzorów.
+
+$$
+4 x = \frac{1+x^3}{2-y^4} 
+$$
+
+Zapewne słusznie zauważyłeś, że napisałem podstawowych, ponieważ liczba pakietów z których mozna korzystać jest tak wielka, że z pewnością odnajdziesz praktycznie dowolnie interesującą Cię interpretację wprowadzanych przez siebie wyników --- przez wykresy (słupkowe, kołowe, 3D ect.), aż po wzory chemiczne, strukturalnie lub trójwymiarowe!
+
+Poniżej drobny przykład zaledwie lekko zawysowujacy temat wzorów chemicznych: 
+\vspace{.5cm}
+\begin{center}
+    \chemfig{A*6(-B=C(-CH_3)-D-E-F(=G)=)}
+\end{center}
+\subsection*{Rozdział niewidoczny w spisie treści}
+Można także jak już wcześniej pisałem (w kodzie zródłowym pracy) ukrywać niektóre rozdziały, podrozdziały, ect. wystarczy zakończyć daną komendę (dla przykładu podrozdziału) znakiem gwiazdki, aby całoś wyglądała tak:
+
+\begin{verbatim}
+\section*{Tytuł podrozdziału}
+\end{verbatim}
+
+
+
+Dla osób lubiących się w pisaniu programów, lub tych zmuszonych do publikacji fragmentów kodów źródłowych bądź skomplikowanych danych, można z powodzeniem wykorzystać najlepszy znany mi pakiet tj. \texttt{listings}. Efekt można zobaczyć poniżej wraz z podświetleniem i kolorowaniem sładni odpowiedniej dla danego języka, w tym wypadku dla języka C++ w przykładzie sortowania bąbelkowego~\parencite{url:cpp-bubble-sort}.
+
+\begin{lstlisting}[label=lst:cpp-bubble-sort, caption=Sortowanie bąbelkowe w C++, language=C++]
+void BubbleSort(apvector <int> &num)
+{
+    int i, j, flag = 1;    // set flag to 1 to start first pass
+    int temp;              // holding variable
+    int numLength = num.length( ); 
+    for(i = 1; (i <= numLength) && flag; i++)
+    {
+        flag = 0;
+        for (j=0; j < (numLength -1); j++)
+        {
+            if (num[j+1] > num[j])      // ascending order simply changes to <
+            { 
+                temp = num[j];          // swap elements
+                num[j] = num[j+1];
+                num[j+1] = temp;
+                flag = 1;               // indicates that a swap occurred.
+            }
+        }
+    }
+    return;   //arrays are passed to functions by address; nothing is returned
+}
+\end{lstlisting}
