@@ -65,7 +65,7 @@
     pdfencoding=auto,
     pdftoolbar=true,        % show Acrobat’s toolbar?
     pdfmenubar=true,        % show Acrobat’s menu?
-    pdffitwindow=false,     % window fit to page when opened
+    pdffitwindow=true,     % window fit to page when opened
     pdfstartview={FitH},    % fits the width of the page to the window
     pdftitle={\printShortTitle},         % title
     pdfauthor={\printFullAuthor},        % author
@@ -297,8 +297,9 @@
   \begin{center}
     {%
         {\sffamily\LARGE\scshape\printFullUniversity}\\
-        \vspace*{2mm}
-        {\large\scshape\printDepartment}
+        \vspace*{4mm}
+        %{\large\scshape\printDepartment}
+        {\large\scshape\printDegreeprogramme}
     }
     \vspace*{15mm}
 

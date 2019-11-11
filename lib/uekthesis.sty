@@ -80,25 +80,28 @@ nobreak=true
 \DeclareQuoteAlias{croatian}{polish}
 \RequirePackage[
 language=polish,  % Ustawienie języka
-%urldate=long,     % Wyświetlenie długiego formatu w datach
+%urldate=long,    % Wyświetlenie długiego formatu w datach
 style=numeric,    % numeric, alphabetic, authoryear,
 sorting=nty,      % Sortowanie: nAME, tITLE, yEAR
 isbn=true,        % zgodnie z nowym rozporządzeniem  pole obowiązkowe
-firstinits=true,  % will render all first and middle names as initials.
 abbreviate=true,
 autolang=hyphen,
 backend=biber,]{biblatex}
 
 %##############################################################################
 % pakiet dla podpisów np: dla lstlintings
+% http://www.peteryu.ca/tutorials/publishing/latex_captions
 \RequirePackage[
   font=small,
   format=hang,
   labelformat=simple,
   justification=justified,
   singlelinecheck=false,
-  labelsep=colon
+  labelsep=period,
+  labelfont=bf
 ]{caption}
+\renewcommand{\thefigure}{\arabic{figure}}
+\renewcommand{\thetable}{\arabic{table}}
 
 
 %##############################################################################

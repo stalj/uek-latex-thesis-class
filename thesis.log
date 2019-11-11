@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.5)  5 NOV 2019 20:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.11.8)  11 NOV 2019 23:44
 entering extended mode
-**./main.tex
-(main.tex
-LaTeX2e <2019-10-01>
+**./thesis.tex
+(thesis.tex
+LaTeX2e <2019-10-01> patch level 1
 (lib/uekthesis.cls
 Document Class: lib/uekthesis 2014/16/12 LaTeX class for thesis documents
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\report.cls"
@@ -79,7 +79,7 @@ Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphics
 .sty"
-Package: graphics 2019/07/20 v1.3b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/10/08 v1.3c Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.sty
 "
@@ -102,18 +102,21 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 .sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf.
-sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty
+"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty
+"
+Package: iftex 2019/10/24 v1.0a TeX engine tests
+))
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.st
+y"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifvtex
-.sty"
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifxetex\ifxetex
-.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifxetex.s
+ty"
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count96
 \Gm@cntv=\count97
@@ -331,44 +334,63 @@ Package: hyperref 2019/09/28 v7.00a Hypertext links for LaTeX
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub
 -hyperref.sty"
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+Package: hobsub-hyperref 2019/10/27
+hobsub not currently supported, see hobsub.dtx to extract original code
 
-
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\hobsub
--generic.sty"
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcmd
+s.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdftex
+cmds.sty"
 Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwar
+err.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifluatex.
+sty"
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvsetk
+eys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexcm
+ds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+))
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdefi
+nekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdfesc
+ape.sty"
 Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\hycolor.
+sty"
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\xcolor-p
+atch.sty"
+Package: xcolor-patch 2016/05/16 xcolor patch
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\hopatch.
+sty"
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+)))
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\letltxma
+cro.sty"
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+))
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\auxhook.
 sty"
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
@@ -387,6 +409,10 @@ File: pd1enc.def 2019/09/28 v7.00a Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\intcal
+c.sty"
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+)
 \Hy@SavedSpaceFactor=\count115
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperref
@@ -403,6 +429,16 @@ Package hyperref Info: Bookmarks ON on input line 4793.
 \c@Hy@tempcnt=\count116
 LaTeX Info: Redefining \url on input line 5152.
 \XeTeXLinkMargin=\dimen128
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\bitset
+.sty"
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\bigint
+calc.sty"
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+))
 \Fld@menulength=\count117
 \Field@Width=\dimen129
 \Fld@charsize=\dimen130
@@ -415,6 +451,11 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6448.
 Package hyperref Info: PDF/A mode OFF on input line 6453.
 LaTeX Info: Redefining \ref on input line 6493.
 LaTeX Info: Redefining \pageref on input line 6497.
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\atbegs
+hi.sty"
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
 \Hy@abspage=\count118
 \c@Item=\count119
 \c@Hfootnote=\count120
@@ -424,12 +465,22 @@ Package hyperref Info: Driver: hpdftex.
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.
 def"
 File: hpdftex.def 2019/09/28 v7.00a Hyperref driver for pdfTeX
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\atveryen
+d.sty"
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+)
 \Fld@listcount=\count121
 \c@bookmark@seq@number=\count122
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunfil
 echeck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\unique
+counter.sty"
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
@@ -656,11 +707,11 @@ Package: xparse 2019-10-11 L3 Experimental document command parser
 ))
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.sty
 "
-Package: babel 2019/09/27 3.34 The Babel package
+Package: babel 2019/10/15 3.35 The Babel package
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.de
 f"
-File: switch.def 2019/09/27 3.34 Babel switching mechanism
+File: switch.def 2019/10/15 3.35 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -676,7 +727,7 @@ Language: polish 2005/03/31 v1.2l Polish support from the babel system
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.def
 "
-File: babel.def 2019/09/27 3.34 Babel common definitions
+File: babel.def 2019/10/15 3.35 Babel common definitions
 \babel@savecnt=\count281
 \U@D=\dimen163
 
@@ -704,6 +755,10 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
+("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\refcount
+.sty"
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+)
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\gettit
 lestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
@@ -1754,12 +1809,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblatex
 .cfg"
 File: biblatex.cfg 
-)
-
-Package biblatex Warning: 'firstinits' option is deprecated.
-(biblatex)                Please use 'giveninits' instead.
-
-)
+))
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1
 .sty"
 File: lstlang1.sty 2019/09/10 1.8c listings language file
@@ -1814,35 +1864,6 @@ File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 \cftbeforeloatitleskip=\skip267
 \cftafterloatitleskip=\skip268
 )
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/chemfig\chemfig.s
-ty"
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/chemfig\chemfig
-.tex"
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/simplekv\simple
-kv.tex")
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\p
-gflibraryarrows.meta.code.tex"
-File: pgflibraryarrows.meta.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfarrowinset=\dimen308
-\pgfarrowlength=\dimen309
-\pgfarrowwidth=\dimen310
-\pgfarrowlinewidth=\dimen311
-)
-\CF_cntatomgroup=\count473
-\CF_cntgroup=\count474
-\CF_cntatom=\count475
-\CF_cntcycle=\count476
-\CF_cntcompound=\count477
-\CF_dim=\dimen312
-\CF_arrowsize=\dimen313
-\CF_zero=\dimen314
-\CF_boxlewis=\box79
-\CF_box=\box80
-\CF_boxstuff=\box81
-\CF_substtoks=\toks53
-)
-Package: chemfig 2019/05/21 v1.41 Draw molecule with an easy syntax (CT)
-)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package biblatex Info: Trying to load language 'polish'...
@@ -1851,39 +1872,39 @@ Package biblatex Info: ... file 'polish.lbx' found.
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/lbx\poli
 sh.lbx"
 File: polish.lbx 2019/08/31 v3.13a biblatex localization (PK/MW)
-) (main.aux (chap_0_intro.aux) (chap_1_theory.aux) (chap_2_practice.aux) (chap_
-3_conclusion.aux))
-\openout1 = `main.aux'.
+) (thesis.aux (introduction.aux) (chapter1.aux) (chapter2.aux)
+(chapter3.aux) (chapter4.aux) (conclusion.aux))
+\openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-1.
+3.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 41
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 43
 .
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Package hyperref Info: Option `unicode' set `true' on input line 41.
+Package hyperref Info: Option `unicode' set `true' on input line 43.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\puenc.de
 f"
@@ -1891,39 +1912,39 @@ File: puenc.def 2019/09/28 v7.00a Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 41.
-Package hyperref Info: Option `unicode' set `true' on input line 41.
+Package hyperref Info: Option `unicode' set `true' on input line 43.
+Package hyperref Info: Option `unicode' set `true' on input line 43.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\string
 enc.sty"
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 41.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 41.
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 41.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 43.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 43.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 43.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\se-pdf
 doc.def"
 File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
 )
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 41.
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 43.
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-
 pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count478
-\scratchdimen=\dimen315
-\scratchbox=\box82
-\nofMPsegments=\count479
-\nofMParguments=\count480
-\everyMPshowfont=\toks54
-\MPscratchCnt=\count481
-\MPscratchDim=\dimen316
-\MPnumerator=\count482
-\makeMPintoPDFobject=\count483
-\everyMPtoPDFconversion=\toks55
+\scratchcounter=\count473
+\scratchdimen=\dimen308
+\scratchbox=\box79
+\nofMPsegments=\count474
+\nofMParguments=\count475
+\everyMPshowfont=\toks53
+\MPscratchCnt=\count476
+\MPscratchDim=\dimen309
+\MPnumerator=\count477
+\makeMPintoPDFobject=\count478
+\everyMPtoPDFconversion=\toks54
 )
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopdf
 -base.sty"
@@ -1974,295 +1995,251 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box83
-Package hyperref Info: Link coloring ON on input line 41.
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
-(main.out) (main.out)
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring ON on input line 43.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+(thesis.out) (thesis.out)
 \@outlinefile=\write5
-\openout5 = `main.out'.
+\openout5 = `thesis.out'.
 
-\c@lstlisting=\count484
+\c@lstlisting=\count479
 \symgns@font=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 41.
-Package gensymb Info: Math companion symbols declared on input line 41.
-LaTeX Info: Redefining \degree on input line 41.
-LaTeX Info: Redefining \celsius on input line 41.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 43.
+Package gensymb Info: Math companion symbols declared on input line 43.
+LaTeX Info: Redefining \degree on input line 43.
+LaTeX Info: Redefining \celsius on input line 43.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 41.
-LaTeX Info: Redefining \ohm on input line 41.
-Package gensymb Info: Using \textohm for \ohm on input line 41.
-Package gensymb Info: Using \textmu for \micro on input line 41.
+erthousand on input line 43.
+LaTeX Info: Redefining \ohm on input line 43.
+Package gensymb Info: Using \textohm for \ohm on input line 43.
+Package gensymb Info: Using \textmu for \micro on input line 43.
  ABD: EveryShipout initializing macros
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 41.
+loading the todonotes package. on input line 43.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `main.bcf'.
+\openout4 = `thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 41.
-Package biblatex Info: Reference segment=0 on input line 41.
+Package biblatex Info: ... file 'thesis.bbl' found.
+(thesis.bbl)
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4
-4.
+6.
+
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <20.74> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 44.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 46.
 
-<lib/university-logo.png, id=70, 1778.14313pt x 1778.14313pt>
+<lib/university-logo.png, id=134, 578.16pt x 578.16pt>
 File: lib/university-logo.png Graphic file (type png)
 <use lib/university-logo.png>
-Package pdftex.def Info: lib/university-logo.png  used on input line 44.
-(pdftex.def)             Requested size: 199.16928pt x 199.15067pt.
+Package pdftex.def Info: lib/university-logo.png  used on input line 46.
+(pdftex.def)             Requested size: 199.16928pt x 199.16547pt.
 [1
 
 {C:/Users/Janusz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./lib/univ
-ersity-logo.png>]pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.44 \titlepages
-                 [1
-
-]
+ersity-logo.png>] (thesis.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-4.
+.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-4.
+.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-44.
+4.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-44.
+4.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 44.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 44.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
-
+(Font)              <6> on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 "
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
-4.
+.
  ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ts1lmr.fd"
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.44 \titlepages
-                 [1
-
-] (main.toc)
+))
 \tf@toc=\write6
-\openout6 = `main.toc'.
+\openout6 = `thesis.toc'.
 
- [4
+
+Underfull \vbox (badness 2418) has occurred while \output is active []
+
+ [2
+
 
 ]
-\openout2 = `chap_0_intro.aux'.
+[3]
+\openout2 = `introduction.aux'.
 
- (chap_0_intro.tex
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 10
-.
+ (introduction.tex) [4
+
+
+
+]
+\openout2 = `chapter1.aux'.
+
+ (chapter1.tex
+Rozdzia\l  1.
+[5
+
+
+
+] [6]) [7]
+\openout2 = `chapter2.aux'.
+
+ (chapter2.tex
+Rozdzia\l  2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8
+
+
+
+])
+[9]
+\openout2 = `chapter3.aux'.
+
+ (chapter3.tex
+Rozdzia\l  3.
+<images/inflacja.png, id=213, 361.35pt x 216.81pt>
+File: images/inflacja.png Graphic file (type png)
+<use images/inflacja.png>
+Package pdftex.def Info: images/inflacja.png  used on input line 16.
+(pdftex.def)             Requested size: 426.79134pt x 256.07838pt.
+[10
+
+
+
+] [11 <./images/inflacja.png>]) [12]
+\openout2 = `chapter4.aux'.
+
+ (chapter4.tex
+Rozdzia\l  4.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 8.
 
 ("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) [5
+) [13
 
 
 
-]
-\openout2 = `chap_1_theory.aux'.
+]) [14]
+\openout2 = `conclusion.aux'.
 
- (chap_1_theory.tex
-Rozdzia\l  1.
-<images/word-vs-latex.png, id=111, 562.1pt x 441.65pt>
-File: images/word-vs-latex.png Graphic file (type png)
-<use images/word-vs-latex.png>
-Package pdftex.def Info: images/word-vs-latex.png  used on input line 26.
-(pdftex.def)             Requested size: 284.52756pt x 223.55376pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 27.
-) [6
+ (conclusion.tex) [15
 
 
 
-] [7 <./images/word-vs-latex.png>]
-\openout2 = `chap_2_practice.aux'.
-
- (chap_2_practice.tex
-Rozdzia\l  2.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 8.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 8.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 8.
-
-Underfull \hbox (badness 2503) in paragraph at lines 10--12
-\T1/lmr/m/n/12 doczna ró»-nica po-mi¦-dzy \T1/lmr/bx/n/12 przy-pi-sem dol-nym \
-T1/lmr/m/n/12 (który za-ob-se-ro-wo-wa-ªe± po-wy-»ej,
- []
-
-[8
+] [16
 
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
- []
-
-
-LaTeX Warning: Citation 'url:wiki-mechanika-kwantowa' on page 9 undefined on in
-put line 34.
-
-[9]
-
-LaTeX Warning: Citation 'url:cpp-bubble-sort' on page 10 undefined on input lin
-e 59.
-
-
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1
-.sty"
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1
-.sty"
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-("C:\Users\Janusz\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.
-sty"
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 61.
- [10]) [11]
-\openout2 = `chap_3_conclusion.aux'.
-
- (chap_3_conclusion.tex
-Rozdzia\l  3.
-) [12
-
-
-
-]
-
-LaTeX Warning: Empty bibliography on input line 67.
-
-(main.lot)
+] (thesis.lot)
 \tf@lot=\write7
-\openout7 = `main.lot'.
+\openout7 = `thesis.lot'.
 
- [13
-
-
+ [17
 
 
-] (main.lof)
+] (thesis.lof)
 \tf@lof=\write8
-\openout8 = `main.lof'.
+\openout8 = `thesis.lof'.
 
- [14
+ [18
 
-
-] (main.lol)
-\tf@lol=\write9
-\openout9 = `main.lol'.
-
- [15
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
- (main.aux (chap_0_intro.aux)
-(chap_1_theory.aux) (chap_2_practice.aux) (chap_3_conclusion.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 02F2C100C43782207C79F2D80FB085E2;1034.
+(thesis.lol)
+\tf@lol=\write9
+\openout9 = `thesis.lol'.
 
+ [19
 
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+ (thesis.aux (introduction.aux) (chapter1.aux) (chapter2.aux)
+(chapter3.aux) (chapter4.aux) (conclusion.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: EE8BA769766AD8206CC2A0ABF219CF04;2048.
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47964 strings out of 492452
- 875379 string characters out of 3119597
- 1398632 words of memory out of 3000000
- 51560 multiletter control sequences out of 15000+200000
- 629081 words of font info for 95 fonts, out of 3000000 for 9000
+ 46178 strings out of 492453
+ 847794 string characters out of 3119609
+ 1328855 words of memory out of 3000000
+ 49742 multiletter control sequences out of 15000+200000
+ 602883 words of font info for 65 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,12n,149p,1131b,3634s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-math
-sy.enc}{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--rm.enc}{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/l
-m-mathit.enc}{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-ec.enc}{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
-s/base/8r.enc}<C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/lm/lmbx12.pfb><C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmcsc10.pfb><C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmmi12.pfb><C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/lm/lmr10.pfb><C:/Users/Janusz/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Janusz/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Janusz/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/Janusz/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Janusz/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Janusz/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Janusz/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Janusz
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (15 pages, 2285793 bytes).
+ 77i,11n,149p,1133b,1940s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.e
+nc}{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.e
+nc}{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.
+enc}{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ma
+thsy.enc}{C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-mathit.enc}<C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmbx10.pfb><C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmbx12.pfb><C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmcsc10.pfb><C:/Users/Janusz/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Janusz/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Janusz/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/Janusz/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Janusz/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Janusz/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr8.pfb><C:/Users/Janusz/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/Janusz/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Janus
+z/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/
+Janusz/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on thesis.pdf (19 pages, 549073 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 52 named destinations out of 1000 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,54 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {polish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Wstęp}{4}{chapter*.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Forma pracy}{5}{chapter.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Objaśnienie pojęć}{5}{section.1.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Wkład własny dyplomanta}{5}{section.1.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}Badania empiryczne}{5}{subsection.1.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Analiza przypadku (case study)}{6}{subsection.1.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Aplikacja}{6}{subsection.1.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Model (Framework)}{6}{subsection.1.2.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.5}Krytyczny przegląd literatury}{6}{subsection.1.2.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Redagowanie tekstu}{8}{chapter.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Tekst zasadniczy pracy}{8}{section.2.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Lista wypunktowana}{9}{section.2.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Lista numerowana}{9}{section.2.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Rysunki i tabele}{10}{chapter.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Rysunki}{10}{section.3.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Tabele}{10}{section.3.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Wzory}{12}{section.3.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Literatura naukowa}{13}{chapter.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Bazy publikacji naukowych}{13}{section.4.1}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Baza Google Scholar}{13}{section.4.2}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Bibliografia}{14}{section.4.3}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Zakończenie}{15}{chapter*.4}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografia}{16}{chapter*.5}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Spis tabel}{17}{section*.6}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Spis rysunk\'ow}{18}{section*.7}% 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Spis kodów źródłowych}{19}{section*.8}% 

@@ -1,5 +1,7 @@
-\documentclass[male, authorStatement, indexNumber, fileVersion, keywords, thanks]{lib/uekthesis}
+%%\documentclass[male, authorStatement, indexNumber, fileVersion, keywords, thanks]{lib/uekthesis}
+\documentclass[indexNumber, fileVersion]{lib/uekthesis}
 \usepackage{lib/uekthesis}
+
 
 
 %##############################################################################
@@ -9,20 +11,20 @@
 %
 \globalFullAuthor{Jan Kowalski}                     % Pełna nazwa autora pracy
 \globalShortAuthor{J.\ Kowalski}                     % Autor - zwięzła forma wydruku
-\globalFullTitle{Przygotowanie pracy dyplomowej \\[2mm] wraz z systemem LaTeX}  % Pełny tytuł pracy
+\globalFullTitle{Przygotowanie pracy dyplomowej \\[2mm]
+przy użyciu oprogramowania LaTeX}  % Pełny tytuł pracy
 \globalShortTitle{Praca dyplomowa w systemie LaTeX}       % Krótki, zwięzły tytuł pracy
 \globalFullUniversity{Uniwersytet Ekonomiczny w Krakowie} % Pełna nazwa uniwersytetu
 \globalShortUniversity{UEK}                           % Skrócona nazwa uniwersytetu
-\globalDepartment{Wydział Zarządzania}                % Wydział
-\globalDegreeprogramme{Informatyka Stosowana}         % Kierunek studiów
+\globalDepartment{Instytut Zarządzania}                % Wydział
+\globalDegreeprogramme{Informatyka Stosowana\\Inżynieria oprogramowania}         % Kierunek i specjalność studiów
 \globalThesisType{Praca dyplomowa}                    % Typ pracy dyplomowej
 \globalUnderTheSupervisonOf{Pod kierunkiem}
-\globalSupervisor{prof. n. dr hab. Jana Iksińskiego}  % Promotor
-\globalAcknowledgements{Dla moich rodziców oraz najbliższych przyjaciół za niezłomną wiarę w~moje zwycięstwo.}   % Podziękowania
+\globalSupervisor{prof. dr hab. Jana Iksińskiego}  % Promotor
 \globalFileVersion{0.1.0}   % wersja pliku
-\globalIndexNumber{123456}  % wersja pliku
+\globalIndexNumber{123456}  % nr indeksu studenta
 \globalCity{Kraków}         % miasto
-\globalYear{2015}           % rok powstania pracy
+\globalYear{2019}           % rok powstania pracy
 \globalKeywords{nauka, komputery, praca dyplomowa, latex, uczelnia, student} % słowa kluczowe dla pracy
 
 %##############################################################################
@@ -31,7 +33,7 @@
 
 %##############################################################################
 % dodatkowe pakiety
-\usepackage{chemfig} % wzory chemiczne
+%\usepackage{chemfig} % wzory chemiczne
 
 % Lista słów (dzielenia je, lub nie)
 \hyphenation{LaTeX latex LaTeXu}
@@ -46,10 +48,12 @@
 \clearpage
 
 % Tu umieszczamy rozdziały w porządanej kolejności 
-\include{chap_0_intro}
-\include{chap_1_theory}
-\include{chap_2_practice}
-\include{chap_3_conclusion}
+\include{introduction}
+\include{chapter1}
+\include{chapter2}
+\include{chapter3}
+\include{chapter4}
+\include{conclusion}
 
 % Załączniki
 % \appendix

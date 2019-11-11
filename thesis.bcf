@@ -2130,8 +2130,7 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
-    <bcf:citekey order="1">url:wiki-mechanika-kwantowa</bcf:citekey>
-    <bcf:citekey order="2">url:cpp-bubble-sort</bcf:citekey>
+    <bcf:citekey order="1">dirac</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
